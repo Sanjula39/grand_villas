@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
-import { contact } from "../assets";
+
 import { styles } from "../styles";
 
 import { SectionWrapper } from "../hoc";
@@ -153,11 +153,7 @@ const Contact = () => {
           <p className="text-black">
            Email Address : grandvilas@email.com
           </p>
-          <img
-            src={contact}
-            alt='project_image'
-            className='w-full h-full m-10 object-cover rounded-2xl'
-          />
+          
         </motion.p>
       </div>
 
